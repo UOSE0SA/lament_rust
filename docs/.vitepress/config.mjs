@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/lament_rust/',
   title: "Lament Rust",
   description: "A Rust course site.",
   themeConfig: {
